@@ -1,0 +1,42 @@
+{% extends 'base.html' %}
+{% block title %}Application{% endblock %}
+{% block content %}
+    <table>
+      <tr>
+      <td>
+      </td>
+      <h1>Application
+      </h1>
+      </tr>
+      <tr>
+      <td id="instructions">
+      <p>Thank you for your interest in Our Company &trade;. Please fill out and submit this online application for our consideration.
+      </p>
+      </td>
+      <td id="userinfoform">
+        <form action="/application">
+          <label for="firstname">First Name:
+          </label>
+          <input id="firstname" type="text" name="firstname">
+          <br>
+          <label for="lastname">Last Name:
+          </label>
+          <input id="lastname" type="text" name="lastname">
+          <br>
+          <label for="salaryrequirement">Salary Requirement ($US):
+          </label>
+          <input id="salaryrequirement" type="text" name="salaryrequirement">
+          <br>
+          <label for="jobtitle">Job Title:
+          </label>
+          <select id="jobtitle" name="jobtitle">
+            <option value="Software Engineer">Software Engineer</option>
+            <option value="QA Engineer">QA Engineer</option>
+            <option value="Product Manager">Product Manager</option>
+          </select>
+          <input id="submit" type="submit">
+        </form>
+      </td>
+      </tr>
+      </table>
+{% endblock %}

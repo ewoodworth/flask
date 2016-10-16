@@ -1,0 +1,47 @@
+body {
+    background-color: gray;
+}
+
+input {
+    background-color: yellow;
+    margin: 0.5em;
+    width: 30em;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    width: 70%;
+    height: 2px;
+}
+
+#instructions {
+    border: 1px solid black;
+    width: 20%;
+    padding: 1em;
+    font-size: 125%;
+}
+
+#userinfoform {
+    width: 60%;
+    padding-left: 1em;
+}
+
+#lastname {
+    font-weight: bold;
+}
+
+#salaryrequirement {
+    width: 21em;
+}
+
+#submit {
+    width: 18em;
+}
+
+#thankyou {
+    font-size: 120%;
+    width: 80%;
+}

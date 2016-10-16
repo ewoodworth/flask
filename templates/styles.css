@@ -1,0 +1,12 @@
+input {
+    background-color: yellow;
+    margin: 0.5em;
+}
+
+#lastname #lastnamelabel {
+    font-style: bold;
+}
+
+#instructions {
+    border: 1px solid black;
+}
